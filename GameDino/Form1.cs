@@ -71,20 +71,20 @@ namespace GameDino
             gameField = new DinoGameClass.GameField(pictureBox1.Width, Kaktus, KaktusBig, KaktusSmall, Pterich, Pterich2, dino, dino, dinoDeath, dino, dinoSit, dinoSit, grace, cloud, cloud, cloud);
             */
 
-            Image pter1 = Image.FromFile("D:\\ptr1.png");
-            Image pter2 = Image.FromFile("D:\\ptr2.png");
-            Image kaktus1 = Image.FromFile("D:\\kaktussa.png");
-            Image kaktus2 = Image.FromFile("D:\\kaktussa2.png");
-            Image kaktus3 = Image.FromFile("D:\\kaktussa3.png");
-            Image dino1 = Image.FromFile("D:\\dino1.png");
-            Image dino2 = Image.FromFile("D:\\dino2.png");
-            Image dino3 = Image.FromFile("D:\\dino6.png");
-            Image dino4 = Image.FromFile("D:\\dino3.png");
-            Image dino5 = Image.FromFile("D:\\dino4.png");
-            Image dino6 = Image.FromFile("D:\\dino5.png");
-            Image cloud = Image.FromFile("D:\\cloud.png");
-            Image cloud2 = Image.FromFile("D:\\cloud2.png");
-            Image cloud3 = Image.FromFile("D:\\cloud3.png");
+            Image pter1 = Image.FromFile(@"./src/ptr1.png");
+            Image pter2 = Image.FromFile(@"./src/ptr2.png");
+            Image kaktus1 = Image.FromFile(@"./src/kaktussa.png");
+            Image kaktus2 = Image.FromFile(@"./src/kaktussa2.png");
+            Image kaktus3 = Image.FromFile(@"./src/kaktussa3.png");
+            Image dino1 = Image.FromFile(@"./src/dino1.png");
+            Image dino2 = Image.FromFile(@"./src/dino2.png");
+            Image dino3 = Image.FromFile(@"./src/dino6.png");
+            Image dino4 = Image.FromFile(@"./src/dino3.png");
+            Image dino5 = Image.FromFile(@"./src/dino4.png");
+            Image dino6 = Image.FromFile(@"./src/dino5.png");
+            Image cloud = Image.FromFile(@"./src/cloud.png");
+            Image cloud2 = Image.FromFile(@"./src/cloud2.png");
+            Image cloud3 = Image.FromFile(@"./src/cloud3.png");
             Bitmap grace = new Bitmap(pictureBox1.Width / 2, 5);
             Graphics gr = Graphics.FromImage(grace);
             Random random = new Random();
@@ -120,8 +120,8 @@ namespace GameDino
             gr.DrawImage(gameField.ground.imageToUse, 0, bmp.Height - gameField.ground.imageToUse.Height);
             if (gameField.gameOver)
             {
-                gr.DrawImage(Image.FromFile("D:\\gameOver2.png"), 200 + Convert.ToInt32(7 * Math.Sin(ConvertDegreesToRadians(r))), 10 + Convert.ToInt32(7 * Math.Cos(ConvertDegreesToRadians(r))));
-                gr.DrawImage(Image.FromFile("D:\\gameOver1.png"), 200, 10);
+                gr.DrawImage(Image.FromFile(@"./src/gameOver2.png"), 200 + Convert.ToInt32(7 * Math.Sin(ConvertDegreesToRadians(r))), 10 + Convert.ToInt32(7 * Math.Cos(ConvertDegreesToRadians(r))));
+                gr.DrawImage(Image.FromFile(@"./src/gameOver1.png"), 200, 10);
             }
             pictureBox1.Image = bmp;
         }
@@ -169,20 +169,20 @@ namespace GameDino
         {
             pictureBox2.Visible = false;
 
-            Image pter1 = Image.FromFile("D:\\ptr1.png");
-            Image pter2 = Image.FromFile("D:\\ptr2.png");
-            Image kaktus1 = Image.FromFile("D:\\kaktussa.png");
-            Image kaktus2 = Image.FromFile("D:\\kaktussa2.png");
-            Image kaktus3 = Image.FromFile("D:\\kaktussa3.png");
-            Image dino1 = Image.FromFile("D:\\dino1.png");
-            Image dino2 = Image.FromFile("D:\\dino2.png");
-            Image dino3 = Image.FromFile("D:\\dino6.png");
-            Image dino4 = Image.FromFile("D:\\dino3.png");
-            Image dino5 = Image.FromFile("D:\\dino4.png");
-            Image dino6 = Image.FromFile("D:\\dino5.png");
-            Image cloud = Image.FromFile("D:\\cloud.png");
-            Image cloud2 = Image.FromFile("D:\\cloud2.png");
-            Image cloud3 = Image.FromFile("D:\\cloud3.png");
+            Image pter1 = Image.FromFile(@"./src/ptr1.png");
+            Image pter2 = Image.FromFile(@"./src/ptr2.png");
+            Image kaktus1 = Image.FromFile(@"./src/kaktussa.png");
+            Image kaktus2 = Image.FromFile(@"./src/kaktussa2.png");
+            Image kaktus3 = Image.FromFile(@"./src/kaktussa3.png");
+            Image dino1 = Image.FromFile(@"./src/dino1.png");
+            Image dino2 = Image.FromFile(@"./src/dino2.png");
+            Image dino3 = Image.FromFile(@"./src/dino6.png");
+            Image dino4 = Image.FromFile(@"./src/dino3.png");
+            Image dino5 = Image.FromFile(@"./src/dino4.png");
+            Image dino6 = Image.FromFile(@"./src/dino5.png");
+            Image cloud = Image.FromFile(@"./src/cloud.png");
+            Image cloud2 = Image.FromFile(@"./src/cloud2.png");
+            Image cloud3 = Image.FromFile(@"./src/cloud3.png");
             Bitmap grace = new Bitmap(pictureBox1.Width / 2, 5);
             Graphics gr = Graphics.FromImage(grace);
             Random random = new Random();
