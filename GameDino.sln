@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameDino", "GameDino\GameDino.csproj", "{90CD2A61-3734-4D7D-A345-143B896F1038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinoGameClass", "DinoGameClass\DinoGameClass.csproj", "{794797AD-D6E6-40FB-B54A-F7DC9FE4011E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90CD2A61-3734-4D7D-A345-143B896F1038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CD2A61-3734-4D7D-A345-143B896F1038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CD2A61-3734-4D7D-A345-143B896F1038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CD2A61-3734-4D7D-A345-143B896F1038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794797AD-D6E6-40FB-B54A-F7DC9FE4011E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794797AD-D6E6-40FB-B54A-F7DC9FE4011E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794797AD-D6E6-40FB-B54A-F7DC9FE4011E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794797AD-D6E6-40FB-B54A-F7DC9FE4011E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EE96A37-F18A-4E39-B232-2F9559EAC1EF}
+	EndGlobalSection
+EndGlobal
