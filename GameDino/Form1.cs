@@ -26,7 +26,7 @@ namespace GameDino
             timer1.Start();
 
             pictureBox1.Controls.Add(pictureBox2);
-            pictureBox2.BackgroundImage = Image.FromFile("D:\\restart.png");
+            pictureBox2.BackgroundImage = Image.FromFile(@"./src/restart.png");
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Size = new Size(77, 73);
             pictureBox2.Visible = false;
